@@ -1,0 +1,53 @@
+I feel overwhelmed because if I reach out to GA and it fails then they'll tell me I still can't come and she is fustrated and won't allow me back in the school. Then I can't come to see these people I'd like to see there at GA and we'll just have to reach out to them in github.
+
+If I can't convence the guy from Gtown to have me working there then I'll be in square one. so I'm not losing just gaining 
+
+but what hurts is then I don't want to fail my head is telling me.
+
+I don't want my resume to be bad. that's why I'm slacking I'm tired too. So I'll sleep and hopefully I feel better when I'm back up!
+-------------------------------
+I wasn't ready to send that so I'll work on this project till 5p and then do the resume thing.
+------------------------------
+OVERVIEW
+
+enter a word for player to guess:
+- check to see if anything is entered
+	-yes: switch to main page and dash words
+	-no: nothing entered, ask to enter again
+Yes
+*switch to game view*
+8 images for 8 steps to hang & happy guy standing next to it
+1. post
+3. foot support 1
+4. foot support 2
+2. stand
+5. top ledge
+6. ledge support
+7. knoose
+8. hang man!! - happy guy has unhappy face eyes exed out
+-------------------------------
+BREAK DOWN OF VIEWS
+
+POP BOX 
+saying enter a word for opponent:
+
+MAIN PAGE
+hang man- title
+big div - middle
+1: score out 8, dashed word - footer
+2: letters already used
+
+LOSE/WIN BOX (after 2 second call it)
+- win: congratulations! you won
+- lose: you lost
+-------------------------
+TO DO.
+1. draw the look
+2. research best way to code this
+ - how to do pop-box
+ - inspirations
+3. form a logic in coding that make this possible
+4. do it, code!
+
+
+
