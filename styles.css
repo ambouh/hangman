@@ -1,0 +1,81 @@
+body {
+    background: #223f81;
+}
+header {
+
+}
+#logo {
+    width: 200px;
+    margin: 10px auto;
+    display: block;
+}
+
+main {
+    background: url(images/placeholder.png) no-repeat;
+    width: 895px;
+    height: 385px;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+#words {
+    padding-left: 110px;
+}
+
+#good{
+    border-bottom: 5px solid #0054a6;
+    height: 100px;
+
+    font-size: 40px;
+    color: #6391fa;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#good ul li {
+    margin: 0 10px 0 0;
+    display: inline;
+    border: 10px solid transparent;
+    border-image: url(images/dash.png) 22;
+    border-top: none;
+}
+
+#good>ul>li.blank {
+    padding: 0 13px;
+    margin: 0 25px 0 0;
+}
+
+#bad {
+    height: 80px;
+    font-size: 40px;
+    color: #cf6c58;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+
+#bad ul li {
+    margin: 0 5px;
+}
+#bad ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+div#scoreboard {
+    height: 130px;
+    background: white;
+    border: 8px solid #0054a6;
+    border-radius: 15px;
+    margin: 25px 0;
+}
+
+#scoreboard p {
+    font-family: arial, sans-serif;
+    color: #ff2c07;
+    font-size: 70px;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-top: 7px;
+}
