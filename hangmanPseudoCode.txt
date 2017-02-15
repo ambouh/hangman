@@ -48,6 +48,36 @@ TO DO.
  - inspirations
 3. form a logic in coding that make this possible
 4. do it, code!
+_______________________________________
+TO DO:
+GOAL1: stop dbl-letters
+- type a key
+ 
+- (check if letter has not been guessed)
+- if true,
+  (check if it's in word) 
+  ~ if true,
+   - call isUsed()
+    ~ //it takes char, add & return false [unused]
+    ~ //return true [used] 
+   - add it to good list
+  ~ if false, 
+   - push it to bad list
+   - draw the hang man
+   - score up the scoreboard
+- if false,
+  ~ console.log("Entered")
 
+GOAL2: put wrong letter in 'bad' and update picture
+GOAL3: keep live count
+GOAL4: have a game over or game won
+----------------------------------
+        for(i=0;i<wordArray.length;i++){
+            if(letter == wordArray[i]){
+                found=true;
+                $('#t'+i).removeClass('blank').append(letter);
+            }
+        }
 
+I feel the challenge and I'm scared.
 

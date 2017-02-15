@@ -19,7 +19,6 @@ main {
 }
 
 #words {
-    padding-left: 110px;
 }
 
 #good{
@@ -76,6 +75,6 @@ div#scoreboard {
     font-size: 70px;
     text-align: right;
     font-weight: bold;
-    padding-right: 5px;
-    padding-top: 7px;
+    padding-right: 9px;
+    padding-top: 3px;
 }
