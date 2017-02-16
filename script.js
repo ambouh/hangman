@@ -2,12 +2,17 @@
  * Created by Andres on 2/9/2017.
  */
 $(document).ready(function () {
-    var storedWord = "allowed";
+
+    var storedQuestion ="who: ";
+    var storedWord = "me"; /*[seven letters only]*/
 
     /*count the amount of letters and display blank on the board */
     var wordCount = storedWord.length;
     var good = document.getElementById('good');
     var bad = document.getElementById('bad');
+
+    //setting up div#question
+    $('#question').html(storedQuestion);
 
     //setting up div#good
     var ul = document.createElement('ul');
@@ -88,25 +93,27 @@ $(document).ready(function () {
     }
 
     function isOver() {
-        var greaterThan8 = (scoreCount >= 8);
+        var greaterThanSix = (scoreCount >= 6);
         var result;
-        if (wordComplete() || greaterThan8){
-            result = (greaterThan8)? "count" : "word";
+
+        if (wordComplete() || greaterThanSix){
+            result = (greaterThanSix)? "count" : "word";
         }
 
         switch (result){
             case "count":
-                $('#score').html("<p>LOST</p>");
+                $('#scoreboard>p').html("LOST");
                 $(document).off("keyup", handleKeyUp);
                 console.log(result);
                 break;
             case "word":
-                $('#score>p').html("<p>WON!</p>");
+                $('#scoreboard>p').html("WON!!");
                 $(document).off("keyup", handleKeyUp);
-                 console.log(result);
+                console.log(result);
                 break;
             default:
         }
+
     }
 
     function wordComplete() {
@@ -116,6 +123,11 @@ $(document).ready(function () {
         }
         return (current == storedWord) ? true : false;
     }
+
+    function getWord() {
+
+    }
+
 });
 
 

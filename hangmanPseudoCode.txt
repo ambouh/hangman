@@ -77,6 +77,26 @@ words can be so offensive. it's like a virus attack onto your database, but to c
 GOAL4: have a game over or game won
 - check count or wordcomplete
  ~ if true,
-  - var result = "";
+  - 
   - return (count > 8)? "count" : "word";
-
+- when lost, it goes to 9 instead of instead lost (doesn't reach 'switch')
+- when won, won it goes to
+-----------------------
+Q: Kanye West & Adidas partnered to create this brand:
+A: yeezy
+--
+Q: Skateboard company famous for the box logo:
+A: supreme
+--
+Q: The American fashion designer & icon:
+A: ralphlauren
+--
+Q: A brand mostly likely worn by The devil: 
+A: prada
+--
+Q: The fashion house known for the iconic Medusa head:
+A: versace
+--
+Q: Italian luxury brand with the recognizable Green/red:
+A: Gucci
+--

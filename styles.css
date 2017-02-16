@@ -1,4 +1,6 @@
 body {
+    height: 100vh;
+    margin: 0;
     background: #223f81;
 }
 header {
@@ -9,30 +11,50 @@ header {
     margin: 10px auto;
     display: block;
 }
-
+#wrapper {
+    background: url(images/bg.png) no-repeat;
+    width: 895px;
+    height:auto;
+    background-size: contain !important;
+    margin: 0 auto;
+}
 main {
-    background: url(images/placeholder.png) no-repeat;
     width: 895px;
     height: 385px;
-    background-size: contain !important;;
-    margin: 0 auto;
+    background-size: contain !important;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
 
 #words {
+    width: 550px;
+    text-align: center;
+    padding: 10px;
 }
 
-#good{
-    border-bottom: 5px solid #0054a6;
-    height: 100px;
+div#question {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6391fa;
+}
 
-    font-size: 40px;
+#good {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    border-bottom: 5px solid #0054a6;
+    font-size: 35px;
     color: #6391fa;
     font-weight: bold;
     text-transform: uppercase;
+    padding-bottom: 10px;
 }
 
 #good ul li {
-    margin: 0 25px 0 0;
+    margin: 0 15px 0 0;
     display: inline;
     border: 10px solid transparent;
     border-image: url(images/dash.png) 22;
@@ -40,17 +62,18 @@ main {
 }
 
 #good>ul>li.blank {
-    padding: 0 13px;
-    margin: 0 25px 0 0;
+    padding: 0 15px 0 0;
+    margin: 0 15px 0 0;
 }
 
 #bad {
     height: 80px;
-    font-size: 40px;
+    font-size: 35px;
     color: #cf6c58;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: line-through;
+    padding-top: 5px;
 }
 
 #bad ul li {
@@ -61,20 +84,30 @@ main {
     display: inline-flex;
 }
 
+section#scorewrap {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 div#scoreboard {
-    height: 130px;
+    height: 100px;
+    width: 150px;
     background: white;
     border: 8px solid #0054a6;
     border-radius: 15px;
-    margin: 25px 0;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
 }
 
 #scoreboard p {
     font-family: arial, sans-serif;
     color: #ff2c07;
-    font-size: 70px;
-    text-align: right;
+    text-align: center;
     font-weight: bold;
-    padding-right: 9px;
-    padding-top: 3px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
