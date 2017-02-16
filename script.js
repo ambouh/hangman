@@ -20,7 +20,7 @@ $(document).ready(function () {
             "clue": "The fashion house known for the iconic Medusa head:"
         },
         {
-            "word": "Gucci",
+            "word": "gucci",
             "clue": "Italian luxury brand with the recognizable Green/red:"
         }
     ]};
