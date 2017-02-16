@@ -2,9 +2,31 @@
  * Created by Andres on 2/9/2017.
  */
 $(document).ready(function () {
-
-    var storedQuestion ="who: ";
-    var storedWord = "me"; /*[seven letters only]*/
+    var questionBank = {"list" : [
+        {
+            "word": "yeezy",
+            "clue": "Kanye West & Adidas partnered to create this brand:"
+        },
+        {
+            "word": "supreme",
+            "clue": "Skateboard company famous for the box logo:"
+        },
+        {
+            "word": "prada",
+            "clue": "A brand mostly likely to be worn by The devil:"
+        },
+        {
+            "word": "versace",
+            "clue": "The fashion house known for the iconic Medusa head:"
+        },
+        {
+            "word": "Gucci",
+            "clue": "Italian luxury brand with the recognizable Green/red:"
+        }
+    ]};
+    var rand = Math.floor(Math.random()*questionBank.list.length);
+    var storedQuestion = questionBank.list[rand].clue;
+    var storedWord = questionBank.list[rand].word; /*[seven letters max]*/
 
     /*count the amount of letters and display blank on the board */
     var wordCount = storedWord.length;
