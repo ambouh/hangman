@@ -24,7 +24,7 @@
     <favorites_list name="hangman" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.50348026">
+    <splitter split-orientation="horizontal" split-proportion="0.1">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
@@ -54,7 +54,7 @@
                   <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
                   <folding>
                     <element signature="e#0#41#0" expanded="false" />
-                    <marker date="1487289213595" expanded="true" signature="72:4279" ph="{...}" />
+                    <marker date="1487289434995" expanded="true" signature="72:4250" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -67,8 +67,8 @@
           <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+                <state relative-caret-position="1343">
+                  <caret line="147" column="4" selection-start-line="147" selection-start-column="4" selection-end-line="147" selection-end-column="4" />
                   <folding>
                     <element signature="e#0#41#0" expanded="false" />
                     <element signature="e#1827#1994#0" expanded="false" />
@@ -192,7 +192,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../project-betelle/be-portfolio" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -268,12 +268,12 @@
       <option name="presentableId" value="Default" />
       <updated>1486677385043</updated>
       <workItem from="1486677387556" duration="19534000" />
-      <workItem from="1486933753334" duration="42517000" />
+      <workItem from="1486933753334" duration="43416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62051000" />
+    <option name="totallyTimeSpent" value="62950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -415,8 +415,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="1343">
+          <caret line="147" column="4" selection-start-line="147" selection-start-column="4" selection-end-line="147" selection-end-column="4" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
             <element signature="e#1827#1994#0" expanded="false" />

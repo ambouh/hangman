@@ -145,11 +145,7 @@ $(document).ready(function () {
         }
         return (current == storedWord) ? true : false;
     }
-
-    function getWord() {
-
-    }
-
+    
 });
 
 
