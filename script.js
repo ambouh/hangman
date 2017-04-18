@@ -124,6 +124,10 @@ $(document).ready(function () {
         return bool;
     }
 
+    /**Determines if game is over:
+     * 1. result is assigned count(hangman is completed) or word(word is guessed)
+     * 2. switch case count: display lost, turns of keyboard, prints lost
+     * 3. swutch case word: display won, turns off keyboard, prints won*/
     function isOver() {
         var greaterThanSix = (scoreCount >= 6);
         var result;
@@ -148,6 +152,10 @@ $(document).ready(function () {
 
     }
 
+    /**Determines if current word is equal to word to be guessed
+     * 1. for loop: append current letters and stores in var current
+     * 2. then fx compares current and storedWord, if equal return true
+     *  or otherwise false*/
     function wordComplete() {
         var current = "";
         for(var i = 0; i <=storedWord.length; i++){

@@ -112,6 +112,9 @@ div#scoreboard {
     width: 100%;
 }
 
+#divider-bar {
+    margin: 0 10px;
+}
 
 #dummy{
     position:absolute;
@@ -121,6 +124,17 @@ div#scoreboard {
 
 /*small-screen sizes*/
 
-@media screen and (max-width:800px) {}
+@media screen and (max-width:800px) {
+    #wrapper {
+        width: 70%;
+        height: 70%;
+    }
+
+    main {
+        width: 70%;
+        height: 70%;
+    }
+
+}
 
 @media screen and (max-width:560px) {}
