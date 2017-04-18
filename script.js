@@ -2,6 +2,10 @@
  * Created by Andres on 2/9/2017.
  */
 $(document).ready(function () {
+
+    //gameScreen allows cellphone and tablets to play
+    gameScreen();
+
     var questionBank = {"list" : [
         {
             "word": "yeezy",
@@ -61,6 +65,12 @@ $(document).ready(function () {
 
 
     function handleKeyUp(event) {
+        if(event.keyCode==229){
+            event.keyCode=$('#dummy').val().
+            slice($('#dummy').val().length-1, $('#dummy').val().length)
+                .toUpperCase().charCodeAt(0);
+        }
+
         if(event.keyCode>64 && event.keyCode<91){
             var input = String.fromCharCode(event.keyCode).toLowerCase();
             guess(input);
@@ -145,7 +155,13 @@ $(document).ready(function () {
         }
         return (current == storedWord) ? true : false;
     }
-    
+
+    function gameScreen() {
+        $(document).on("click",function(){
+            $('#dummy').focus();
+        });
+        $('#dummy').focus();
+    }
 });
 
 

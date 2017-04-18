@@ -39,7 +39,7 @@ footer {
 
 div#question {
     font-size: 20px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: #6391fa;
 }
 
@@ -111,3 +111,16 @@ div#scoreboard {
     padding: 0;
     width: 100%;
 }
+
+
+#dummy{
+    position:absolute;
+    left:-200px;
+    top:0px;
+}
+
+/*small-screen sizes*/
+
+@media screen and (max-width:800px) {}
+
+@media screen and (max-width:560px) {}
