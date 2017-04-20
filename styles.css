@@ -136,7 +136,7 @@ div#scoreboard {
     }
 
     main::after {
-        content: "Not optimized for mobile (switch for a desktop)";
+        content: "Not optimized for mobile (switch to a desktop)";
         margin: 0 auto;
         color: #fff;
         font-weight: bold;
