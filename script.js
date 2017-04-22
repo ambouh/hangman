@@ -3,8 +3,10 @@
  */
 $(document).ready(function () {
 
-    //gameScreen allows cellphone and tablets to play
-    gameScreen();
+
+    start_game();
+
+
 
     var questionBank = {"list" : [
         {
@@ -175,6 +177,15 @@ $(document).ready(function () {
             $('#dummy').focus();
         });
         $('#dummy').focus();
+    }
+
+    function start_game(){
+        $('#start_btn').on('click', function(){
+            $('.start_game').hide();
+
+            //gameScreen allows cellphone and tablets to play
+            gameScreen();
+        });
     }
 });
 

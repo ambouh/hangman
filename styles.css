@@ -91,6 +91,16 @@ div#question {
     display: inline-flex;
 }
 
+.start_game {
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    background: #000;
+    z-index: 1;
+    top: 25%;
+    left: 25%;
+}
+
 section#scorewrap {
     width: 250px;
     display: flex;
