@@ -65,6 +65,8 @@ $(document).ready(function () {
 
 
     function handleKeyUp(event) {
+
+        //for android phones
         if(event.keyCode==229){
             event.keyCode=$('#dummy').val().
             slice($('#dummy').val().length-1, $('#dummy').val().length)
@@ -141,14 +143,18 @@ $(document).ready(function () {
                 $('#scoreboard>p').html("LOST");
                 $(document).off("keyup", handleKeyUp);
                 console.log(result);
+                document.activeElement.blur();
                 break;
             case "word":
                 $('#scoreboard>p').html("WON!!");
                 $(document).off("keyup", handleKeyUp);
                 console.log(result);
+                document.activeElement.blur();
                 break;
             default:
         }
+
+
 
     }
 
