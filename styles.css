@@ -143,8 +143,8 @@ div#scoreboard {
 
 @media screen and (max-width:800px) {
     #wrapper {
-        width: 80%;
-        height: 70%;
+        width: 300px;
+        height: 200px;
     }
 
     main {
@@ -162,6 +162,33 @@ div#scoreboard {
     #words {
         width: 90vw;
     }
+
+    div#question {
+        font-size: 14px;
+    }
+
+    #good {
+        font-size: 25px;
+    }
+    #good ul li {
+        border-bottom: 5px solid transparent;
+        border-image: url(images/dash.png) 20;
+    }
+
+    #bad {
+       font-size: 25px;
+    }
+
+    div#scoreboard {
+        height: 80px;
+        width: 120px;
+        font-size: 30px;
+    }
+
+    img#divider-bar {
+        width: 2.5%;
+    }
+
 }
 
 @media screen and (max-width:560px) {}
