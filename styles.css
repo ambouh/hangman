@@ -12,8 +12,8 @@ header {
     display: block;
 }
 #wrapper {
-    background: #88abe4;
-    /*background: url(images/bg.png) no-repeat;*/
+    /*background: #88abe4;*/
+    background: url(images/bg.png) no-repeat;
     width: 895px;
     border-radius: 15px;
     height: auto;
@@ -56,7 +56,7 @@ div#question {
     padding-bottom: 10px;
 }
 
-#good ul {
+#good ul, #bad ul {
     padding-left: 0;
 }
 
@@ -145,12 +145,15 @@ div#scoreboard {
     #wrapper {
         width: 300px;
         height: 200px;
+        background-size: cover !important;
     }
 
     main {
         position: relative;
         width: 100%;
         height: 100%;
+        top: 58px;
+        left: 17px;
     }
 
     footer {
