@@ -6,6 +6,8 @@ $(document).ready(function () {
 
     start_game();
 
+    //gameScreen allows cellphone and tablets to play
+    gameScreen();
 
 
     var questionBank = {"list" : [
