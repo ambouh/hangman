@@ -183,7 +183,7 @@ $(document).ready(function () {
 
     function start_game(){
         $('#start_btn').on('click', function(){
-            $('.start_game').hide();
+            $('.window_screen').hide();
 
             //gameScreen allows cellphone and tablets to play
             gameScreen();

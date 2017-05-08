@@ -91,16 +91,26 @@ div#question {
     display: inline-flex;
 }
 
-.start_game {
+.window_screen {
+    height: 100vh;
+    width: 98.79vw;
+    background: rgba(0, 0, 0, 0.39);
     position: absolute;
-    width: 50vw;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start_game {
+    width: 500px;
     height: 200px;
     background: rgba(81, 84, 86, 0.74);
     border-radius: 5px;
     z-index: 1;
-    top: 20%;
-    left: 20%;
 }
+
 
 section#scorewrap {
     width: 250px;
@@ -110,14 +120,14 @@ section#scorewrap {
 }
 #start_btn {
     position: relative;
-    left: 25%;
-    right: 25%;
-    top: 45%;
     border: none;
     background: #3d4046;
     border-radius: 4px;
     height: 30px;
     color: #72aee9;
+    display: block;
+    margin: 0 auto;
+    top: 80px;
 }
 div#scoreboard {
     height: 100px;
